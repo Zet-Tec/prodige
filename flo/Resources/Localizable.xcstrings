@@ -114,6 +114,7 @@
       }
     },
     "About flo" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -128,6 +129,9 @@
           }
         }
       }
+    },
+    "About Prodige" : {
+
     },
     "Accent color" : {
       "localizations" : {
@@ -466,6 +470,7 @@
       }
     },
     "http://localhost:4533" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -480,6 +485,9 @@
           }
         }
       }
+    },
+    "https://play.bp.limited" : {
+
     },
     "Library" : {
       "localizations" : {
@@ -577,7 +585,14 @@
         }
       }
     },
+    "Login to our server to continue" : {
+
+    },
+    "Login to start streaming music for Mia & Emma Forest" : {
+
+    },
     "Login to start streaming your music by tapping the icon above" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -594,6 +609,7 @@
       }
     },
     "Login to your Navidrome server to continue" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -626,6 +642,7 @@
       }
     },
     "Navidrome Music Server %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -768,6 +785,9 @@
           }
         }
       }
+    },
+    "Playlist for Mia & Emma Forest" : {
+
     },
     "Preferences" : {
       "localizations" : {
@@ -914,6 +934,7 @@
       }
     },
     "Share features with Download option is disabled, please update directly in Navidrome UI if needed" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -928,6 +949,9 @@
           }
         }
       }
+    },
+    "Share features with Download option is disabled." : {
+
     },
     "Share my listening activity to Discord now playing status" : {
       "localizations" : {
@@ -962,6 +986,7 @@
       }
     },
     "sigma" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1026,6 +1051,7 @@
       }
     },
     "Thanks for choosing flo!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1040,6 +1066,9 @@
           }
         }
       }
+    },
+    "Thanks for choosing Prodige!" : {
+
     },
     "The quickest action you can take is to log back in — for now." : {
       "localizations" : {
@@ -1089,6 +1118,9 @@
         }
       }
     },
+    "username" : {
+
+    },
     "Username" : {
       "localizations" : {
         "en" : {
@@ -1122,6 +1154,7 @@
       }
     },
     "Your Navidrome session may have expired" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -1136,6 +1169,9 @@
           }
         }
       }
+    },
+    "Your session may have expired" : {
+
     }
   },
   "version" : "1.0"

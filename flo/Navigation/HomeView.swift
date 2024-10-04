@@ -77,9 +77,12 @@ struct HomeView: View {
               .fontWeight(.bold)
               .multilineTextAlignment(.leading)
 
+            Text("Playlist for Mia & Emma Forest")
+/*
             Text(
               "Navidrome Music Server \(scanStatusViewModel.scanStatus?.serverVersion ?? "undefined")"
             )
+ */
             .customFont(.subheadline)
           } else {
             Text("You're not logged in")
@@ -87,7 +90,7 @@ struct HomeView: View {
               .fontWeight(.bold)
               .multilineTextAlignment(.leading)
 
-            Text("Login to start streaming your music by tapping the icon above")
+            Text("Login to start streaming music for Mia & Emma Forest")
           }
 
         }.padding(5)

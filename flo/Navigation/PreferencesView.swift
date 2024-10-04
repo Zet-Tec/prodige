@@ -143,15 +143,15 @@ struct PreferencesView: View {
 
         Section(header: Text("Development")) {
           Button(action: {
-            if let url = URL(string: "https://client.flooo.club/about") {
+            if let url = URL(string: "https://play.bp.limited") {
               UIApplication.shared.open(url)
             }
           }) {
-            Text("About flo")
+            Text("About Prodige")
           }
 
           Button(action: {
-            if let url = URL(string: "https://github.com/kepelet/flo") {
+            if let url = URL(string: "https://github.com/Zet-Tec/prodige") {
               UIApplication.shared.open(url)
             }
           }) {
@@ -166,7 +166,7 @@ struct PreferencesView: View {
         }
 
         if authViewModel.isLoggedIn {
-          Section(header: Text("Logged in as \(authViewModel.user?.username ?? "sigma")")) {
+          Section(header: Text("Logged in as \(authViewModel.user?.username ?? "username")")) {
             Button(action: {
               authViewModel.logout()
             }) {

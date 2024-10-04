@@ -26,7 +26,7 @@ struct LibraryView: View {
               maxWidth: .infinity, maxHeight: 300
             ).padding()
             Group {
-              Text("Your Navidrome session may have expired")
+              Text("Your session may have expired")
                 .customFont(.title1)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.leading)

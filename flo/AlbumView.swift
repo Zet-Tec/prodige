@@ -223,7 +223,7 @@ struct AlbumView: View {
             TextField("Description (i.e: for my wife)", text: $shareDescription)
           } message: {
             Text(
-              "Share features with Download option is disabled, please update directly in Navidrome UI if needed"
+              "Share features with Download option is disabled."
             )
           }.alert(
             "Link copied to clipboard! (\(self.generatedShareURL))", isPresented: $showShareURLAlert

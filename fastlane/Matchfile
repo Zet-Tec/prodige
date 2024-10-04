@@ -1,4 +1,4 @@
-git_url("git@github.com:kepelet/match.git")
+git_url("git@github.com:Zet-Tec/match.git")
 storage_mode("git")
 
 type("appstore")

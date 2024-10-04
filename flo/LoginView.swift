@@ -20,14 +20,14 @@ struct Login: View {
           .frame(width: 130)
           .padding(.bottom, 20)
 
-        Text("Thanks for choosing flo!")
+        Text("Thanks for choosing Prodige!")
           .foregroundColor(.white)
           .customFont(.title1)
           .fontWeight(.bold)
           .multilineTextAlignment(.center)
           .padding(.bottom, 10)
 
-        Text("Login to your Navidrome server to continue")
+        Text("Login to our server to continue")
           .foregroundColor(.white)
           .customFont(.body)
           .multilineTextAlignment(.center)
@@ -37,7 +37,7 @@ struct Login: View {
         VStack(alignment: .leading) {
           Text("Server URL")
             .font(.headline)
-          TextField("http://localhost:4533", text: $viewModel.serverUrl)
+          TextField("https://play.bp.limited", text: $viewModel.serverUrl)
             .padding()
             .background(.white)
             .foregroundColor(.accent)
@@ -49,7 +49,7 @@ struct Login: View {
         VStack(alignment: .leading) {
           Text("Username")
             .font(.headline)
-          TextField("sigma", text: $viewModel.username)
+          TextField("username", text: $viewModel.username)
             .padding()
             .background(.white)
             .foregroundColor(.accent)

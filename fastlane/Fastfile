@@ -1,7 +1,7 @@
 fastlane_version "2.222.1"
 default_platform(:ios)
 
-groups = ["Kepelet"]
+groups = ["staff"]
 configuration = "Release"
 
 platform :ios do
